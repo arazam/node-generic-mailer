@@ -1,0 +1,29 @@
+{
+    "name": "databeyz-server",
+    "version": "1.0.0",
+    "description": "NodeJS mailer for Databeyz",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/databeyz/nodejs-mail-submission-handler.git"
+    },
+    "scripts": {
+        "start": "node ./server.js",
+        "start-dev": "nodemon ./server.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.4",
+        "express": "^4.16.3",
+        "express-jwt": "^5.3.1",
+        "jsonwebtoken": "^8.2.2",
+        "mongodb": "^3.0.10",
+        "mongoose": "^5.1.4",
+        "multer": "^1.4.2",
+        "nodemailer": "^6.3.0",
+        "rootpath": "^0.1.2"
+    },
+    "devDependencies": {
+        "nodemon": "^1.17.5"
+    }
+}
