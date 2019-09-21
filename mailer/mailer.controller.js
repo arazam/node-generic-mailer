@@ -14,14 +14,14 @@ async function mail(req, res, next) {
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
         // host: "mail.trueverifier.com",
-        // port: 465,
+        // port: 465,587,
         // secure: true, // true for 465, false for other ports
         // auth: {
         //   user: "app@trueverifier.com", // generated ethereal user
         //   pass: "#5=K~2_5TUPo" // generated ethereal password
         // }
         host : "smtp.gmail.com",
-        port: 587,
+        port: 465,
         secure: true, // true for 465, false for other ports
         auth: {
           user: "fredsmith.1376@gmail.com", // generated ethereal user
