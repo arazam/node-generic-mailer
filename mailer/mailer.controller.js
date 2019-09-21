@@ -22,10 +22,10 @@ async function mail(req, res, next) {
         // }
         host : "smtp.gmail.com",
         port: 587,
-        secure: false, // true for 465, false for other ports
+        secure: true, // true for 465, false for other ports
         auth: {
-          user: "dataaffix18@gmail.com", // generated ethereal user
-          pass: "Hipl@20038907poplop+_)(" // generated ethereal password
+          user: "fredsmith.1376@gmail.com", // generated ethereal user
+          pass: "Hipl@123" // generated ethereal password
         }
       });
 
