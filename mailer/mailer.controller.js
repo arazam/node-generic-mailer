@@ -25,7 +25,7 @@ async function mail(req, res, next) {
         secure: false, // true for 465, false for other ports
         auth: {
           user: "fredsmith.1376@zohomail.in", // generated ethereal user
-          pass: "m!WodAtAp2o&" // generated ethereal password
+          pass: "GjsAUnXCK5vt" // generated ethereal password
         }
       });
 
