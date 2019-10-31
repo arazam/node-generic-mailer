@@ -20,7 +20,7 @@ async function mail(req, res, next) {
         //   user: "app@trueverifier.com", // generated ethereal user
         //   pass: "#5=K~2_5TUPo" // generated ethereal password
         // }
-        host : "smtp.gmail.com",
+        host : "smtp.zoho.in",
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
