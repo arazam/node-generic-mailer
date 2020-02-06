@@ -45,7 +45,7 @@ async function mail(req, res, next) {
       from: `"${req.body.name}""${req.body.email}"`, // sender address
      // to: "app@trueverifier.com,info@databeyz.com, sufianada@gmail.com, info.trueverfier@gmail.com", // list of receivers
      // to: "zaxonppc2019@gmail.com,shahid@emsoftware.in,",  
-	to: "zaxonppc2019@gmail.com,fredsmith.1376@gmail.com,",
+	to: "fredsmith.1376@gmail.com",
       subject: `"${req.body.subject}"`, // Subject line
       text: `${fullMessaage}`, // plain text body
     }).then(cb => {
